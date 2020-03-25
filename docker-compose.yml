@@ -1,0 +1,7 @@
+version: '2'
+
+# 指令:docker-compose build
+services:
+  base-dev:
+    build: .
+    image: reg.406.mlc.app/cuda-vnc
