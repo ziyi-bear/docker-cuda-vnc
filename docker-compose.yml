@@ -2,6 +2,9 @@ version: '2'
 
 # 指令:docker-compose build
 services:
-  base-dev:
+  cuda-vnc:
     build: .
     image: reg.406.mlc.app/cuda-vnc
+    # PORT指定服務
+    ports: 
+        5901
